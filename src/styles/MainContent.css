@@ -1,0 +1,102 @@
+.main-content-wrapper {
+ 
+  text-align: center;
+  padding: 2rem 1rem 3rem 1rem;
+  box-sizing: border-box;
+  /* Remove min-height and flex settings here */
+  margin: 0 auto;
+  
+}                                                                                                                                                                                                                                                                                                                                                              
+
+
+.main-illustration {
+  margin-bottom: 2.5rem;
+}
+
+.main-illustration-img {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 0 1.2rem 0;
+  color: #111;
+}
+                                                    
+.main-subtext {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+  max-width: 480px;
+}
+
+.main-footer {
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #222;
+  opacity: 0.8;
+}
+
+.lock-icon {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 2rem;
+  }
+  .main-illustration-img {
+    max-width: 90vw;
+  }
+  .main-footer {
+    font-size: 0.95rem;
+  }
+}
+
+.main-content-flex {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center;     /* Center horizontally */
+  position: relative;
+}
+
+.main-content-center {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  /* No height or flex here! */
+}
+
+.main-footer {
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #222;
+  opacity: 0.8;
+}
+.main-content{
+    width: 1077px;
+    height: 100%;
+}
